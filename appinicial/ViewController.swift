@@ -9,16 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    //MARK:properties
+    
+    @IBOutlet weak var txt1: UITextField!
+    
+    @IBOutlet weak var label1: UILabel!
+    
+    
+    //MARK:actions
+    
+    @IBAction func clickButton1(_ sender: UIButton) {
+        label1.text="samuel"
+    }
+    //MARK: ciclo de vida
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        NSLog(NSLocalizedString("mainvc.mensagem", comment:""))
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+	
 
 
 }

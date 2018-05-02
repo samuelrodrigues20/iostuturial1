@@ -12,6 +12,7 @@
 		88455A1E208783900087F05F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88455A1C208783900087F05F /* Main.storyboard */; };
 		88455A20208783900087F05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88455A1F208783900087F05F /* Assets.xcassets */; };
 		88455A23208783900087F05F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88455A21208783900087F05F /* LaunchScreen.storyboard */; };
+		88A5AFEA2091EB6700254613 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88A5AFEC2091EB6700254613 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		88455A1F208783900087F05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88455A22208783900087F05F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88455A24208783900087F05F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88637493208A57A40021D267 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		88A5AFEB2091EB6700254613 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		88A5AFED2091EB7100254613 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				88455A1F208783900087F05F /* Assets.xcassets */,
 				88455A21208783900087F05F /* LaunchScreen.storyboard */,
 				88455A24208783900087F05F /* Info.plist */,
+				88A5AFEC2091EB6700254613 /* Localizable.strings */,
 			);
 			path = appinicial;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-PT",
 			);
 			mainGroup = 88455A0C208783900087F05F;
 			productRefGroup = 88455A16208783900087F05F /* Products */;
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88455A23208783900087F05F /* LaunchScreen.storyboard in Resources */,
+				88A5AFEA2091EB6700254613 /* Localizable.strings in Resources */,
 				88455A20208783900087F05F /* Assets.xcassets in Resources */,
 				88455A1E208783900087F05F /* Main.storyboard in Resources */,
 			);
@@ -149,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				88455A1D208783900087F05F /* Base */,
+				88637493208A57A40021D267 /* pt-PT */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -161,6 +169,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		88A5AFEC2091EB6700254613 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A5AFEB2091EB6700254613 /* pt-PT */,
+				88A5AFED2091EB7100254613 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -168,6 +185,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -219,6 +237,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -304,6 +323,7 @@
 				88455A29208783900087F05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

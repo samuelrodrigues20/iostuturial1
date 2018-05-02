@@ -1,0 +1,9 @@
+/* 
+  Localizeble.strings
+  appinicial
+
+  Created by DocAdmin on 4/20/18.
+  Copyright © 2018 DocAdmin. All rights reserved.
+*/
+mainvc.message = "mensagem";
+mainvc.title = "titulo";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2Pp-64-IMG"; */
+"2Pp-64-IMG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "60X-gA-VLp"; */
+"60X-gA-VLp.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "escreva aqui o nome do local:"; ObjectID = "X2F-lz-dyV"; */
+"X2F-lz-dyV.placeholder" = "escreva aqui o nome do local:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "neP-Fj-6Aw"; */
+"neP-Fj-6Aw.normalTitle" = "botao";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vwi-n6-Q06"; */
+"vwi-n6-Q06.text" = "Label";
