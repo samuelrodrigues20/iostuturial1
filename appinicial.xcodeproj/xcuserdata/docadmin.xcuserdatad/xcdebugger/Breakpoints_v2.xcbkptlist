@@ -35,5 +35,96 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "appinicial/ViewController.swift"
+            timestampString = "546961098.338515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appinicial.ViewController.__deallocating_deinit"
+                  moduleName = "appinicial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/docadmin/Downloads/iostuturial1-master/appinicial/ViewController.swift"
+                  timestampString = "546961099.434204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appinicial.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; appinicial.ViewController"
+                  moduleName = "appinicial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/docadmin/Downloads/iostuturial1-master/appinicial/ViewController.swift"
+                  timestampString = "546961099.438064"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appinicial.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; appinicial.ViewController"
+                  moduleName = "appinicial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/docadmin/Downloads/iostuturial1-master/appinicial/ViewController.swift"
+                  timestampString = "546961099.440146"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appinicial.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;appinicial.ViewController&gt;"
+                  moduleName = "appinicial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/docadmin/Downloads/iostuturial1-master/appinicial/ViewController.swift"
+                  timestampString = "546961099.442603"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appinicial.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;appinicial.ViewController&gt;"
+                  moduleName = "appinicial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/docadmin/Downloads/iostuturial1-master/appinicial/ViewController.swift"
+                  timestampString = "546961099.444685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

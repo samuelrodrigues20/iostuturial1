@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITextFieldDelegate{
     
     
     
@@ -30,6 +30,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         NSLog(NSLocalizedString("mainvc.mensagem", comment:""))
+        
+        txt1.delegate = self as UITextFieldDelegate
+    }
+    
+    //MARK: UITextFieldDelegate
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        label1.text = txt1.text
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 
 	
